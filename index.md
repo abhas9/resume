@@ -99,3 +99,17 @@ Course (Stream)/Examination | Institution/University | Year of Passing | Perform
 {: .interest }
 * {{ interest }}
 {% endfor %}
+
+### Basics
+{: .basics }
+* <i class="fa fa-envelope"></i> {{ content.basics.email }}
+* <i class="fa fa-mobile"></i> {{ content.basics.phone }}
+* <i class="fa fa-globe"></i> [{{ content.basics.website }}]({{ content.basics.website }})
+* <i class="fa fa-map-marker"></i> {{ content.basics.location.city}}, {{ content.basics.location.state}} - {{ content.basics.location.country}}
+
+
+### Profiles
+{: .profiles }
+{% for profile in content.basics.profiles %}
+* <i class="fa fa-{{profile.network}}"></i> [{{ profile.username }}]({{profile.url}})
+{% endfor %}
