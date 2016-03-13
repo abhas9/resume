@@ -109,7 +109,7 @@
         "endDate": "2008",
         "score": "475/500 [95%]"
     }],
-    "section": [{
+    "sections": [{
         "title": "Institutional projects undertaken",
         "items": [{
             "title": "Intelligent Commodity management system",
@@ -120,7 +120,7 @@
             "date": "2012",
             "summary": "Developed for graVITas’12, annual International technical festival of VIT, University. Software was coded as a web application using concepts of PHP & MySQL."
         }, {
-            "title": "Multiplayer Bingo game ",
+            "title": "Multiplayer Bingo game",
             "date": "2011",
             "summary": "Game was code in C++ keeping in mind Object Oriented development methodologies using concept of classes and objects. Source code of game was published online as Google Code Open Source project."
         }]
@@ -170,16 +170,16 @@
             "title": "Riviera'12",
             "url": "http://vitriviera.com",
             "date": "2012",
-            "description": "Riviera is cultural and sports carnival of VIT University. I worked as committee coordinator for design team and developed frontend of the website using AJAX, jQuery, PHP and modern HTML 5 and CSS 3 technologies. Other than frontend I developed online registration system (through PHP and MySQL) to manage external registrations for the sports and cultural events."
+            "summary": "Riviera is cultural and sports carnival of VIT University. I worked as committee coordinator for design team and developed frontend of the website using AJAX, jQuery, PHP and modern HTML 5 and CSS 3 technologies. Other than frontend I developed online registration system (through PHP and MySQL) to manage external registrations for the sports and cultural events."
         }, {
             "title": "graVITas'12",
             "url": "http://vitgravitas.com",
             "date": "2012",
-            "description": "graVITas is annual tech fest of VIT, University. I worked as committee coordinator in design team for the graVITas 2012 and designed the frontend of the site."
+            "summary": "graVITas is annual tech fest of VIT, University. I worked as committee coordinator in design team for the graVITas 2012 and designed the frontend of the site."
         }, {
             "title": "Full Stack webdevelopment for international conferences and students clubs",
             "date": "2010-2014",
-            "description": "Web development and designing for international conferences (Structura 2013 & Sennet 2012) and students clubs. (Team Vimaanas)"
+            "summary": "Web development and designing for international conferences (Structura 2013 & Sennet 2012) and students clubs. (Team Vimaanas)"
         }]
     }, {
         "title": "Notable Achievements during school life",
