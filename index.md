@@ -37,3 +37,18 @@ layout: default
 Course (Stream)/Examination | Institution/University | Year of Passing | Performance 
 --- | --- | --- | ---{% for education in content.education %}
 {{ education.studyType }} {{ education.area }} | {{ education.institution }} | {% if education.startDate != "" %} {{education.startDate}} - {{education.endDate}} {% else %} {{education.endDate}} {% endif %} | {{ education.score }}{% endfor %}
+
+{: .section }
+## Internships
+{% for internship in content.internship %}
+{: .internship }
+* 	**{{ internship.company }}** ({{  internship.location }})
+	{: duration }
+	{{ internship.startDate }} - {{ internship.endDate }}
+	{: summary}
+	{{ internship.summary }}
+
+	{% for highlight in internship.highlights %}
+	* {{ highlight }}
+	{% endfor %}
+{% endfor %}
