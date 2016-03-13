@@ -66,6 +66,23 @@ Course (Stream)/Examination | Institution/University | Year of Passing | Perform
 	{{ publication.summary }}
 {% endfor %}
 
+
+{% for section in content.sections %}
+{: .section }
+## {{ section.title }}
+{: .section-items }
+{% for item in section.items %}
+{% if item.title %}
+* **{{ item.title }}** ({{ item.date }})
+ {: summary}
+ {{ item.summary }}
+{% else %}
+* {{ item }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+
 {: .section }
 ## Skills
 {% for skill in content.skills %}
