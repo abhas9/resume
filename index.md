@@ -52,3 +52,16 @@ Course (Stream)/Examination | Institution/University | Year of Passing | Perform
 	* {{ highlight }}
 	{% endfor %}
 {% endfor %}
+
+{: .section }
+## Publications
+{% for publication in content.publications %}
+{: .publication }
+* 	**{{ publication.name }}** ({{  publication.releaseDate }})
+	{: .link }
+	[Link]({{publication.website}})
+	{: publisher }
+	{{ publication.publisher }}
+	{: summary}
+	{{ publication.summary }}
+{% endfor %}
