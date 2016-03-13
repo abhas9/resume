@@ -1,226 +1,237 @@
 {
-  "basics": {
-    "name": "Abhas Tandon",
-    "title": "Software Engineer",
-    "picture": "",
-    "email": "[403 Forbidden]",
-    "phone": "[403 Forbidden]",
-    "website": "http://cwithabhas.com",
-    "summary": "I am a half stack developer (Front-End). Languages that I speak are JavaScript (mother tongue) - with blend of HTML and CSS. Familiar with PHP & JAVA/C/C++",
-    "location": {
-      "address": "Jankipuram",
-      "postalCode": "226021",
-      "city": "Lucknow",
-      "country": "India",
-      "state": "Uttar Pradesh"
+    "basics": {
+        "name": "Abhas Tandon",
+        "title": "Software Engineer",
+        "picture": "",
+        "email": "[403 Forbidden]",
+        "phone": "[403 Forbidden]",
+        "website": "http://cwithabhas.com",
+        "summary": "I am a half stack developer (Front-End). Languages that I speak are JavaScript (mother tongue) - with blend of HTML and CSS. Familiar with PHP & JAVA/C/C++",
+        "location": {
+            "address": "Jankipuram",
+            "postalCode": "226021",
+            "city": "Lucknow",
+            "country": "India",
+            "state": "Uttar Pradesh"
+        },
+        "profiles": [{
+            "network": "Twitter",
+            "username": "abhas9",
+            "url": "http://twitter.com/abhas9"
+        }, {
+            "network": "LinkedIn",
+            "username": "tandonabhas",
+            "url": "https://www.linkedin.com/in/tandonabhas"
+        }]
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "abhas9",
-      "url": "http://twitter.com/abhas9"
-    }, {
-      "network": "LinkedIn",
-      "username": "tandonabhas",
-      "url": "https://www.linkedin.com/in/tandonabhas"
-    }]
-  },
-  "works": [{
-    "company": "PayPal",
-    "position": "Software Engineer",
-    "website": "http://paypal.com",
-    "startDate": "2014, June",
-    "endDate": "Present",
-    "summary": "Software engineer in \"Content & Media\" division of Infrastructure department. ",
-    "highlights": ["Front-end development for PayPal’s content management product called PISCES. The end product is a JavaScript library that can be injected in any UI application to allow WYSIWYG content editing. Technologies used in the product include: jQuery, bootstrap, HTML/CSS, require.js & grunt.", "Development of an N-Dimensional dashboard for data visualization: nDash.", "Monitoring module for Elastic Search as a Service written in Scala with Akka & spray.", "Dashboard as a Service. Technologies used: React.js, ES6, RxJs, gulp, webpack & redux.", "Developed several generic React based UI components for various projects. One of which is patent pending."],
-    "awards": [{
-      "title": "Best Technical Solution award for Opportunity Hackathon",
-      "date": "2016",
-      "awarder": "PayPal",
-      "summary": "Our team developed an IVR based solution for solving the problem of a partner NGO. We used nodejs for backend and Twilio API as part of our solution."
-    }, {
-      "title": "SPOT Award for onsite work done as part of STEP project",
-      "date": "2015",
-      "awarder": "PayPal",
-      "summary": "STEP is the acronym for “Separation Team for eBay and PayPal”. I was a member of a two member team which was sent to San Jose for STEP Activities related to Search Team, PayPal."
-    }, {
-      "title": "PayPal Monitoring Hackathon 2015 Winners",
-      "date": "2015",
-      "awarder": "PayPal",
-      "summary": "A tool to visualize dependencies in APIs using log data that was mined using Python (beautifulsoap) and persisted in neo4j & mongo. Data was returned using a nodejs based REST service and visualized in a responsive dashboard."
-    }, {
-      "title": "\"Best Solution\" award in Data Hackathon, PayPal ",
-      "date": "2014",
-      "awarder": "PayPal",
-      "summary": "Sentiment Analysis of feedback from Social Media (Twitter Feeds, Facebook) and handling Data coming at random intervals so as to get Total Product value of a Merchant. "
-    }, {
-      "title": "PlayPal 2014 web portal ",
-      "date": "2014",
-      "awarder": "PayPal",
-      "summary": "Part of a winning team which was chosen for developing a web portal for managing various events in PayPal’s annual sport festival. "
-    }]
-  }],
-  "internship": [{
-    "company": "PayPal",
-    "location": "Chennai",
-    "website": "http://paypal.com",
-    "startDate": "2014, January",
-    "endDate": "2014, June",
-    "highlights": ["Was part of Global Platform & Infrastructure, PayPal", "Implemented \"Page builder Application\" and \"PISCES Dashboard\"."]
-  }, {
-    "company": "S&P Capital IQ",
-    "location": "Hyderabad",
-    "website": "https://www.spcapitaliq.com/",
-    "startDate": "2013, June",
-    "endDate": "2013, July",
-    "highlights": ["Worked on several technologies including: JSP, Spring framework, Maven and JAVA web services.", "Implemented two projects \"IDM web services client\" and \"Change password application\"."]
-  }, {
-    "company": "National Informatics Center",
-    "location": "Lucknow",
-    "website": "https://www.spcapitaliq.com/",
-    "startDate": "2012, June",
-    "endDate": "2012, July",
-    "highlights": ["Decision Support System for Vehicle tracking using Android application and PHP.", "Live video streaming from different locations mapped on Google map."]
-  }, {
-    "company": "Esparsha",
-    "location": "Hyderabad",
-    "startDate": "2012, May",
-    "endDate": "2012, July",
-    "highlights": ["Content management through Joomla.", "Search engine optimization.", "Facebook application development for the company to enable them to organize a photography contest."]
-  }],
-  "education": [{
-    "institution": "Vellore Institute of Technology",
-    "area": "Information Technology",
-    "studyType": "Bachelor",
-    "startDate": "2010",
-    "endDate": "2014",
-    "score": "9.0",
-    "awards": [{
-      "title": "Student Achiever's Award",
-      "date": "2014",
-      "awarder": "VIT University",
-      "summary": "For exemplary performance at various national/international events."
-    }, {
-      "title": "Cognizant Certified Student",
-      "date": "2013",
-      "awarder": "Cognizant",
-      "summary": "Cleared the assessment on IT foundation skills conducted in March - April 2013."
-    }, {
-      "title": "Certificate of appreciation for free web development for NGOs",
-      "date": "2012",
-      "awarder": "VIT University",
-      "summary": "Websites were launched by the Chancellor of University on the occasion of Engineers’ day ’12."
-    }, {
-      "title": "Certificate of appreciation - (ICRAM’12)",
-      "date": "2012",
-      "awarder": "ICRAM, VIT University",
-      "summary": "For designing work done for International Conference on Recent Trends in Advanced Materials’2012"
-    }, {
-      "title": "Certificate of appreciation - iCube, IIM Shillong",
-      "date": "2012",
-      "awarder": "iCube, IIM Shillong",
-      "summary": "Certificate of appreciation for web development activities for i-Cube- entrepreneurship cell of IIM Shillong."
+    "works": [{
+        "company": "PayPal",
+        "position": "Software Engineer",
+        "website": "http://paypal.com",
+        "startDate": "2014, June",
+        "endDate": "Present",
+        "summary": "Software engineer in \"Content & Media\" division of Infrastructure department. ",
+        "highlights": ["Front-end development for PayPal’s content management product called PISCES. The end product is a JavaScript library that can be injected in any UI application to allow WYSIWYG content editing. Technologies used in the product include: jQuery, bootstrap, HTML/CSS, require.js & grunt.", "Development of an N-Dimensional dashboard for data visualization: nDash.", "Monitoring module for Elastic Search as a Service written in Scala with Akka & spray.", "Dashboard as a Service. Technologies used: React.js, ES6, RxJs, gulp, webpack & redux.", "Developed several generic React based UI components for various projects. One of which is patent pending."],
+        "awards": [{
+            "title": "Best Technical Solution award for Opportunity Hackathon",
+            "date": "2016",
+            "awarder": "PayPal",
+            "summary": "Our team developed an IVR based solution for solving the problem of a partner NGO. We used nodejs for backend and Twilio API as part of our solution."
+        }, {
+            "title": "SPOT Award for onsite work done as part of STEP project",
+            "date": "2015",
+            "awarder": "PayPal",
+            "summary": "STEP is the acronym for “Separation Team for eBay and PayPal”. I was a member of a two member team which was sent to San Jose for STEP Activities related to Search Team, PayPal."
+        }, {
+            "title": "PayPal Monitoring Hackathon 2015 Winners",
+            "date": "2015",
+            "awarder": "PayPal",
+            "summary": "A tool to visualize dependencies in APIs using log data that was mined using Python (beautifulsoap) and persisted in neo4j & mongo. Data was returned using a nodejs based REST service and visualized in a responsive dashboard."
+        }, {
+            "title": "\"Best Solution\" award in Data Hackathon, PayPal ",
+            "date": "2014",
+            "awarder": "PayPal",
+            "summary": "Sentiment Analysis of feedback from Social Media (Twitter Feeds, Facebook) and handling Data coming at random intervals so as to get Total Product value of a Merchant. "
+        }, {
+            "title": "PlayPal 2014 web portal ",
+            "date": "2014",
+            "awarder": "PayPal",
+            "summary": "Part of a winning team which was chosen for developing a web portal for managing various events in PayPal’s annual sport festival. "
+        }]
     }],
-    "projects": [{
-      "title": "Intelligent Commodity management system",
-      "date": "2013",
-      "summary": "Object oriented PHP web application that allows automation of daily activities of commodity brokers."
+    "internship": [{
+        "company": "PayPal",
+        "location": "Chennai",
+        "website": "http://paypal.com",
+        "startDate": "2014, January",
+        "endDate": "2014, June",
+        "highlights": ["Was part of Global Platform & Infrastructure, PayPal", "Implemented \"Page builder Application\" and \"PISCES Dashboard\"."]
     }, {
-      "title": "Hostel accommodation system software",
-      "date": "2012",
-      "summary": "Developed for graVITas’12, annual International technical festival of VIT, University. Software was coded as a web application using concepts of PHP & MySQL."
+        "company": "S&P Capital IQ",
+        "location": "Hyderabad",
+        "website": "https://www.spcapitaliq.com/",
+        "startDate": "2013, June",
+        "endDate": "2013, July",
+        "highlights": ["Worked on several technologies including: JSP, Spring framework, Maven and JAVA web services.", "Implemented two projects \"IDM web services client\" and \"Change password application\"."]
     }, {
-      "title": "Multiplayer Bingo game ",
-      "date": "2011",
-      "summary": "Game was code in C++ keeping in mind Object Oriented development methodologies using concept of classes and objects. Source code of game was published online as Google Code Open Source project."
+        "company": "National Informatics Center",
+        "location": "Lucknow",
+        "website": "https://www.spcapitaliq.com/",
+        "startDate": "2012, June",
+        "endDate": "2012, July",
+        "highlights": ["Decision Support System for Vehicle tracking using Android application and PHP.", "Live video streaming from different locations mapped on Google map."]
+    }, {
+        "company": "Esparsha",
+        "location": "Hyderabad",
+        "startDate": "2012, May",
+        "endDate": "2012, July",
+        "highlights": ["Content management through Joomla.", "Search engine optimization.", "Facebook application development for the company to enable them to organize a photography contest."]
     }],
-    "websites": [{
-      "title": "Riviera'12",
-      "url": "http://vitriviera.com",
-      "date": "2012",
-      "description": "Riviera is cultural and sports carnival of VIT University. I worked as committee coordinator for design team and developed frontend of the website using AJAX, jQuery, PHP and modern HTML 5 and CSS 3 technologies. Other than frontend I developed online registration system (through PHP and MySQL) to manage external registrations for the sports and cultural events."
+    "education": [{
+        "institution": "Vellore Institute of Technology",
+        "area": "Information Technology",
+        "studyType": "Bachelor of Technology",
+        "startDate": "2010",
+        "endDate": "2014",
+        "score": "9.0/10.0"
     }, {
-      "title": "graVITas'12",
-      "url": "http://vitgravitas.com",
-      "date": "2012",
-      "description": "graVITas is annual tech fest of VIT, University. I worked as committee coordinator in design team for the graVITas 2012 and designed the frontend of the site."
+        "institution": "City Montessori School (Lucknow)",
+        "area": "",
+        "studyType": "ISC",
+        "startDate": "",
+        "endDate": "2010",
+        "score": "371/400[ 92.75%]"
     }, {
-      "title": "Full Stack webdevelopment for international conferences and students clubs",
-      "date": "2010-2014",
-      "description": "Web development and designing for international conferences (Structura 2013 & Sennet 2012) and students clubs. (Team Vimaanas)"
+        "institution": "City Montessori School (Lucknow)",
+        "area": "",
+        "studyType": "ICSE",
+        "startDate": "",
+        "endDate": "2008",
+        "score": "475/500 [95%]"
     }],
-    "positions": [{
-      "title": "Board member (Technical Head) of Institute of Engineers (India).",
-      "date": "2013"
+    "section": [{
+        "title": "Institutional projects undertaken",
+        "items": [{
+            "title": "Intelligent Commodity management system",
+            "date": "2013",
+            "summary": "Object oriented PHP web application that allows automation of daily activities of commodity brokers."
+        }, {
+            "title": "Hostel accommodation system software",
+            "date": "2012",
+            "summary": "Developed for graVITas’12, annual International technical festival of VIT, University. Software was coded as a web application using concepts of PHP & MySQL."
+        }, {
+            "title": "Multiplayer Bingo game ",
+            "date": "2011",
+            "summary": "Game was code in C++ keeping in mind Object Oriented development methodologies using concept of classes and objects. Source code of game was published online as Google Code Open Source project."
+        }]
     }, {
-      "title": "Web designing workshop Organizer and speaker as board member of IE (I).",
-      "date": "2013"
+        "title": "Institutional Awards & Achievements",
+        "items": [{
+            "title": "Student Achiever's Award",
+            "date": "2014",
+            "awarder": "VIT University",
+            "summary": "For exemplary performance at various national/international events."
+        }, {
+            "title": "Cognizant Certified Student",
+            "date": "2013",
+            "awarder": "Cognizant",
+            "summary": "Cleared the assessment on IT foundation skills conducted in March - April 2013."
+        }, {
+            "title": "Certificate of appreciation for free web development for NGOs",
+            "date": "2012",
+            "awarder": "VIT University",
+            "summary": "Websites were launched by the Chancellor of University on the occasion of Engineers’ day ’12."
+        }, {
+            "title": "Certificate of appreciation - (ICRAM’12)",
+            "date": "2012",
+            "awarder": "ICRAM, VIT University",
+            "summary": "For designing work done for International Conference on Recent Trends in Advanced Materials’2012"
+        }, {
+            "title": "Certificate of appreciation - iCube, IIM Shillong",
+            "date": "2012",
+            "awarder": "iCube, IIM Shillong",
+            "summary": "Certificate of appreciation for web development activities for i-Cube- entrepreneurship cell of IIM Shillong."
+        }]
     }, {
-      "title": "Committee Coordinator (graVITas’12) for design and guest care teams.",
-      "date": "2012"
-    }]
-  }, {
-    "institution": "City Montessori School (Lucknow)",
-    "area": "",
-    "studyType": "ISC",
-    "startDate": "",
-    "endDate": "2010",
-    "score": "371/400[ 92.75%]"
-  }, {
-    "institution": "City Montessori School (Lucknow)",
-    "area": "",
-    "studyType": "ICSE",
-    "startDate": "",
-    "endDate": "2008",
-    "score": "475/500 [95%]"
-  }],
-  "publications": [{
-    "name": "Universal Encryption Algorithm using Logical Operations and Bits Shuffling for Unicode.",
-    "publisher": "Indian Journal of Science and Technology",
-    "releaseDate": "2015",
-    "website": "http://www.indjst.org/index.php/indjst/article/view/33437",
-    "summary": "In this paper we have devised a new cryptographic primitive that concentrates on encryption and decryption of plain text string of any Unicode supported language"
-  }, {
-    "name": "OAMS- An Online Agriculture Management System",
-    "publisher": "International Journal of Advance Engineering and Research Development",
-    "releaseDate": "2014",
-    "website": "http://www.ijaerd.com/papers/finished_papers/ijaerd%2014-0251.pdf",
-    "summary": "The paper is aimed at solving some of the major problems related to farmers. It provides a way to the farmer to remotely monitor his field using sensors and even manage the operation of the machinery located at the farm using a device located at the farm."
-  }, {
-    "name": "QR Code based secure OTP distribution scheme for Authentication in Net-Banking",
-    "publisher": "International Journal of Engineering & Technology",
-    "releaseDate": "2013",
-    "website": "http://www.enggjournals.com/ijet/docs/IJET13-05-03-132.pdf",
-    "summary": "In this paper we are presenting a new authentication scheme for secure OTP distribution in net banking through QR codes and email."
-  }, {
-    "name": "Mobile phone and internet adoption & consumption patterns of college students in India",
-    "publisher": "Elixir Marketing Mgmt",
-    "releaseDate": "2013",
-    "website": "http://www.elixirpublishers.com/articles/1359698445_55%20(2013)%2012754-12759.pdf",
-    "summary": "The study made here signifies the user patterns of mobile phones and internet usage among the universities in India."
-  }, {
-    "name": "Novel Method for Predicting Relative Significance of Individual Pages in Website for Generating Optimum Site Link Results in Search Engine",
-    "publisher": "Journal of Computational Intelligence and Electronic Systems",
-    "releaseDate": "2012",
-    "website": "http://www.ingentaconnect.com/content/asp/jcies/2012/00000001/00000001/art00019",
-    "summary": "Paper presents method of predicting importance of different pages in a website. The findings  of paper can be used for generating site links in search engine."
-  }],
-  "skills": [{
-    "name": "Front-End",
-    "keywords": ["Javascript", "HTML", "CSS", "ES6"]
-  }, {
-    "name": "Back-end",
-    "keywords": ["Node.js", "PHP", "Java", "Python", "Scala"]
-  }, {
-    "name": "Libraries/Frameworks",
-    "keywords": ["React.js", "jQuery", "Bootstrap", "Rx.js", "Express", "Flask"]
-  }, {
-    "name": "Tools",
-    "keywords": ["Gulp", "Grunt", "Git", "NPM"]
-  }, {
-    "name": "Datastores",
-    "keywords": ["MySql", "Mongodb", "Elastic Search"]
-  }],
-  "school": ["Playing with Google Analytics, Webmaster's tools, Adsense & blogging since I was 15. Got My first pay-check from Google when I was in class Xth. (2008)", "Hundred percent marks in computer science paper in class 10th board examination.", "Prize in Hindi essay writing in class 8th in competition that was organized by Lifebuoy and Dainaik Jagaran."],
-  "languages": ["English", "Hindi"],
-  "interests": ["Blogging", "Product Hunting", "Hacking on crazy side-projects", "Technical Content Writing"]
+        "title": "Positions of responsibility",
+        "items": [{
+            "title": "Board member (Technical Head) of Institute of Engineers (India).",
+            "date": "2013"
+        }, {
+            "title": "Web designing workshop Organizer and speaker as board member of IE (I).",
+            "date": "2013"
+        }, {
+            "title": "Committee Coordinator (graVITas’12) for design and guest care teams.",
+            "date": "2012"
+        }]
+    }, {
+        "title": "Institutional websites developed",
+        "items": [{
+            "title": "Riviera'12",
+            "url": "http://vitriviera.com",
+            "date": "2012",
+            "description": "Riviera is cultural and sports carnival of VIT University. I worked as committee coordinator for design team and developed frontend of the website using AJAX, jQuery, PHP and modern HTML 5 and CSS 3 technologies. Other than frontend I developed online registration system (through PHP and MySQL) to manage external registrations for the sports and cultural events."
+        }, {
+            "title": "graVITas'12",
+            "url": "http://vitgravitas.com",
+            "date": "2012",
+            "description": "graVITas is annual tech fest of VIT, University. I worked as committee coordinator in design team for the graVITas 2012 and designed the frontend of the site."
+        }, {
+            "title": "Full Stack webdevelopment for international conferences and students clubs",
+            "date": "2010-2014",
+            "description": "Web development and designing for international conferences (Structura 2013 & Sennet 2012) and students clubs. (Team Vimaanas)"
+        }]
+    }, {
+        "title": "Notable Achievements during school life",
+        "items": ["Playing with Google Analytics, Webmaster's tools, Adsense & blogging since I was 15. Got My first pay-check from Google when I was in class Xth. (2008)", "Hundred percent marks in computer science paper in class 10th board examination.", "Prize in Hindi essay writing in class 8th in competition that was organized by Lifebuoy and Dainaik Jagaran."]
+    }],
+    "publications": [{
+        "name": "Universal Encryption Algorithm using Logical Operations and Bits Shuffling for Unicode.",
+        "publisher": "Indian Journal of Science and Technology",
+        "releaseDate": "2015",
+        "website": "http://www.indjst.org/index.php/indjst/article/view/33437",
+        "summary": "In this paper we have devised a new cryptographic primitive that concentrates on encryption and decryption of plain text string of any Unicode supported language"
+    }, {
+        "name": "OAMS- An Online Agriculture Management System",
+        "publisher": "International Journal of Advance Engineering and Research Development",
+        "releaseDate": "2014",
+        "website": "http://www.ijaerd.com/papers/finished_papers/ijaerd%2014-0251.pdf",
+        "summary": "The paper is aimed at solving some of the major problems related to farmers. It provides a way to the farmer to remotely monitor his field using sensors and even manage the operation of the machinery located at the farm using a device located at the farm."
+    }, {
+        "name": "QR Code based secure OTP distribution scheme for Authentication in Net-Banking",
+        "publisher": "International Journal of Engineering & Technology",
+        "releaseDate": "2013",
+        "website": "http://www.enggjournals.com/ijet/docs/IJET13-05-03-132.pdf",
+        "summary": "In this paper we are presenting a new authentication scheme for secure OTP distribution in net banking through QR codes and email."
+    }, {
+        "name": "Mobile phone and internet adoption & consumption patterns of college students in India",
+        "publisher": "Elixir Marketing Mgmt",
+        "releaseDate": "2013",
+        "website": "http://www.elixirpublishers.com/articles/1359698445_55%20(2013)%2012754-12759.pdf",
+        "summary": "The study made here signifies the user patterns of mobile phones and internet usage among the universities in India."
+    }, {
+        "name": "Novel Method for Predicting Relative Significance of Individual Pages in Website for Generating Optimum Site Link Results in Search Engine",
+        "publisher": "Journal of Computational Intelligence and Electronic Systems",
+        "releaseDate": "2012",
+        "website": "http://www.ingentaconnect.com/content/asp/jcies/2012/00000001/00000001/art00019",
+        "summary": "Paper presents method of predicting importance of different pages in a website. The findings  of paper can be used for generating site links in search engine."
+    }],
+    "skills": [{
+        "name": "Front-End",
+        "keywords": ["Javascript", "HTML", "CSS", "ES6"]
+    }, {
+        "name": "Back-end",
+        "keywords": ["Node.js", "PHP", "Java", "Python", "Scala"]
+    }, {
+        "name": "Libraries/Frameworks",
+        "keywords": ["React.js", "jQuery", "Bootstrap", "Rx.js", "Express", "Flask"]
+    }, {
+        "name": "Tools",
+        "keywords": ["Gulp", "Grunt", "Git", "NPM"]
+    }, {
+        "name": "Datastores",
+        "keywords": ["MySql", "Mongodb", "Elastic Search"]
+    }],
+    "languages": ["English", "Hindi"],
+    "interests": ["Blogging", "Product Hunting", "Hacking on crazy side-projects", "Technical Content Writing"]
 }
