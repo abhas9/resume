@@ -30,7 +30,7 @@
     "website": "http://paypal.com",
     "startDate": "2014, June",
     "endDate": "Present",
-    "summary": "Software engineer in `Content & Media` division of Infrastructure department. ",
+    "summary": "Software engineer in \"Content & Media\" division of Infrastructure department. ",
     "highlights": ["Front-end development for PayPal’s content management product called PISCES. The end product is a JavaScript library that can be injected in any UI application to allow WYSIWYG content editing. Technologies used in the product include: jQuery, bootstrap, HTML/CSS, require.js & grunt.", "Development of an N-Dimensional dashboard for data visualization: nDash.", "Monitoring module for Elastic Search as a Service written in Scala with Akka & spray.", "Dashboard as a Service. Technologies used: React.js, ES6, RxJs, gulp, webpack & redux.", "Developed several generic React based UI components for various projects. One of which is patent pending."],
     "awards": [{
       "title": "Best Technical Solution award for Opportunity Hackathon",
