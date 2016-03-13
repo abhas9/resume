@@ -11,7 +11,8 @@ layout: default
 {: .summary }
 {{ content.basics.summary }}
 
-
+{: .section }
+## Experience
 {% for work in content.works %}
 {: .work }
 * 	{{ work.company }} 
@@ -28,3 +29,11 @@ layout: default
 	* **{{ award.title }} ({{ award.date }})** - {{ award.summary }}
 	{% endfor %}
 {% endfor %}
+
+{: .section }
+## Education
+
+{: .table }
+Course (Stream)/Examination | Institution/University | Year of Passing | Performance 
+--- | --- | --- | ---{% for education in content.education %}
+{{ education.studyType }} {{ education.area }} | {{ education.institution }} | {% if education.startDate != "" %} {{education.startDate}} - {{education.endDate}} {% else %} {{education.endDate}} {% endif %} | {{ education.score }}{% endfor %}
