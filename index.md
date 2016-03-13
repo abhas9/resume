@@ -65,3 +65,20 @@ Course (Stream)/Examination | Institution/University | Year of Passing | Perform
 	{: summary}
 	{{ publication.summary }}
 {% endfor %}
+
+{: .section }
+## Skills
+{% for skill in content.skills %}
+{: .skill }
+* 	**{{ skill.name }}**
+	{% for keyword in skill.keywords %}
+	* {{ keyword }}
+	{% endfor %}
+{% endfor %}
+
+{: .section }
+## Interests
+{% for interest in content.interests %}
+{: .interest }
+* {{ interest }}
+{% endfor %}
