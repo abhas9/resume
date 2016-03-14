@@ -44,7 +44,19 @@ $flat-green: #009688;
 	margin-top: 20px;
 }
 
-.internship {
+.work {
+	list-style: none;
+	.company, .date {
+		margin-bottom:2px;
+	}
+}
+.section {
+	text-align: left;
+	display: block;
+	padding: 2px 2px 2px 12px;
+	border-bottom: 1px solid #ccc;
+}
+.internship, .award, .highlight {
 	list-style: none;
 	padding: 20px;
 	position: relative;

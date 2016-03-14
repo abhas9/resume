@@ -7,17 +7,22 @@ layout: default
 ## Experience
 {% for work in content.works %}
 {: .work }
-* 	{{ work.company }} 
-	
+* 	### {{ work.company }} 
+	{: .company }
+
+	{: .date }
 	{{ work.startDate }} - {{ work.endDate }}
 
+	{: .summary }
 	{{ work.summary }}
 
 	{% for highlight in work.highlights %}
+	{: .highlight }
 	* {{ highlight }}
 	{% endfor %}
 	### Awards
 	{% for award in work.awards %}
+	{: .award }
 	* **{{ award.title }} ({{ award.date }})** - {{ award.summary }}
 	{% endfor %}
 {% endfor %}
