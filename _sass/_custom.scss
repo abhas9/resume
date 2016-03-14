@@ -18,7 +18,7 @@ $flat-green: #009688;
 		padding-top: 15px;
 	}
 	border-bottom: solid 3px $flat-green;
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 	top: 0px;
 	height: 90px;
@@ -32,12 +32,16 @@ $flat-green: #009688;
 	}
 	background: #fff;
 }
-
+/*
 .experience {
 	margin-top: 110px;
 	@media only screen and (max-width : 768px)  {
 		margin-top: 215px;
 	}
+}*/
+
+.experience {
+	margin-top: 20px;
 }
 
 .internship {
