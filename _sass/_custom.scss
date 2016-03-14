@@ -1,5 +1,44 @@
 $flat-blue: #00BCD4;
 $flat-green: #009688;
+.header {
+	.name {
+		margin-top: 10px;
+		font-size: 2.2rem;
+	}
+	.title {
+		font-size: 1.5rem;
+	}
+	.name, .title {
+		margin-bottom: 0px;
+	}
+	.title,.summary {
+		color: #575758;
+	}
+	.summary {
+		padding-top: 15px;
+	}
+	border-bottom: solid 3px $flat-green;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	height: 90px;
+	@media only screen and (max-width : 992px) {
+		.summary {
+			font-size: 14px;
+		}
+	}
+	@media only screen and (max-width : 768px)  {
+		height: 200px;
+	}
+	background: #fff;
+}
+
+.experience {
+	margin-top: 110px;
+	@media only screen and (max-width : 768px)  {
+		margin-top: 215px;
+	}
+}
 
 .internship {
 	list-style: none;
