@@ -9,3 +9,5 @@ github_username:  abhas9
 
 # Build settings
 markdown: kramdown
+kramdown: 
+  parse_block_html: true

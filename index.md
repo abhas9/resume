@@ -53,16 +53,14 @@ Course (Stream)/Examination | Institution/University | Year of Passing | Perform
 {: .section }
 ## Publications
 {% for publication in content.publications %}
-{: .publication }
-* 	**{{ publication.name }}** ({{  publication.releaseDate }})
-	{: .link }
-	[Link]({{publication.website}})
+* **{{ publication.name }}** ({{  publication.releaseDate }}) [<i class="fa fa-link"></i>]({{publication.website}}){: .publication-link }
+	<div class="publication-details">
 	{: publisher }
 	{{ publication.publisher }}
 	{: summary}
 	{{ publication.summary }}
-{% endfor %}
-
+	</div>{% endfor %}
+{: .publication .accordion }
 
 {% for section in content.sections %}
 {: .section }
